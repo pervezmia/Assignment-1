@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Sharing style */
+.btn{
+    padding: 12px 16px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #30b868;
+    border: none;
+    border-radius: 4px;
+}
+.btn:hover{
+    color: rgb(230, 209, 172) ;
+    background-color: #31df79;
+    transition: all;
+}
+
+header{
+    width: 65%;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 16px 0px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav img{
+    width: 127px;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+header nav ul a{
+    text-decoration: none ;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 152%;
+}
