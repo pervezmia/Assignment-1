@@ -106,3 +106,60 @@ header nav ul a:hover{
     gap: 16px;
     justify-content: center;
 }
+
+#card-section{
+    width: 65%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.card-container{
+    /* border: 1px solid saddlebrown; */
+    padding: 30px 0px 0px;
+}
+
+#card-section .section-heading h2{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+    text-align: center;
+
+}
+#card-section .section-heading p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+#card-section .card-info-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 24px;
+}
+#card-section .card-info-container .card{
+     max-width: 322px;
+     border-radius: 8px;
+     box-shadow: 0px 0px 10px rgba(141, 128, 128, 0.555);
+     padding: 69px 24px;
+}
+#card-section .card-info-container .card img{
+    max-width: 60px;
+    background-color: #F95555;
+    margin-top: 70px;
+    padding: 14px;
+    border-radius: 50%;
+}
+
+#card-section .card-info-container .card h3{
+    margin: 16px 0px;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+#card-section .card-info-container .card p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
