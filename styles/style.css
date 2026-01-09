@@ -19,8 +19,16 @@
     color: rgb(230, 209, 172) ;
     background-color: #31df79;
     transition: all;
+    cursor: pointer;
+    transform: scale(1.1);
+
 }
 
+
+
+
+
+/* main section */
 header{
     width: 65%;
     max-width: 1360px;
@@ -45,4 +53,56 @@ header nav ul a{
     font-size: 16px;
     font-weight: 600;
     line-height: 152%;
+    color: black;
+}
+header nav ul a:hover{
+    color: rgb(0, 255, 115);
+}
+
+
+.hero-section{
+
+    background-image: url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 115px 0px 169px;
+}
+.hero-container{
+    width: 65%;
+    max-width: 1360px ;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    text-align: center;
+    align-items: center;
+}
+
+.hero-container .Early-Access{
+    font-size: 16px;
+    color: #30b868;
+    background-color: white;
+    border-radius: 50px;
+    padding: 12px 6px;
+    margin-bottom: 16px;
+}
+.hero-container h1{
+    font-size: 72px ;
+    margin-bottom: 18px;
+
+}
+.hero-container h1 .first{
+    color: white;
+}
+.hero-container h1 .last{
+    color: #30B868;
+}
+.hero-container p{
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 32px;
+}
+.hero-container .btn-container{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
 }
