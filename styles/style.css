@@ -137,6 +137,7 @@ header nav ul a:hover{
     justify-content: space-between;
     text-align: center;
     gap: 24px;
+    margin-bottom: 120px;
 }
 #card-section .card-info-container .card{
      max-width: 322px;
@@ -178,6 +179,7 @@ header nav ul a:hover{
     justify-content: space-between;
     align-items: center;
     gap: 60px;
+    margin-bottom: 120px;
 }
 
 #second-brain .second-brain-container .knowledge{
@@ -235,4 +237,33 @@ header nav ul a:hover{
     line-height: 20px;
     color: #001931;
     margin: 0;
+}
+
+.think-section{
+    width: 65%;
+    max-width: 1360px;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+}
+.think-section .think-container{
+    text-align: center;
+    padding: 80px 40px;
+    margin-bottom: 120px;
+
+}
+.think-section .think-container h2{
+    font-size: 40px;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 16px;
+}
+.think-section .think-container p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.think-section .think-container button{
+    margin-bottom: 16px;
 }
