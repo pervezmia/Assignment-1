@@ -163,3 +163,76 @@ header nav ul a:hover{
     line-height: 20px;
     color: #627382;
 }
+
+
+#second-brain {
+    width: 65%;
+    max-width: 1360px;
+    margin: 0 auto;
+    /* padding: 120px; */
+    
+}
+#second-brain .second-brain-container{
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+#second-brain .second-brain-container .knowledge{
+    max-width: 600px;
+    border-radius: 12px;
+}
+
+#second-brain .second-brain-container .second-brain-items-container{
+    max-width: 700px;
+    padding: 102px 0px;
+}
+#second-brain .second-brain-container .second-brain-items-container span{
+    font-size: 16px;
+    font-weight: 300;
+    color: #30B868;
+    line-height: 20px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+#second-brain .second-brain-container .second-brain-items-container h2{
+    font-size: 48px;
+    font-weight: 800;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+#second-brain .second-brain-container .second-brain-items-container p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+/* .line{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-content: left;
+} */
+
+.line{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.line img{
+    max-width: 16px;
+}
+#second-brain .second-brain-container .second-brain-items-container .line p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #001931;
+    margin: 0;
+}
