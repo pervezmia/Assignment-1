@@ -16,14 +16,27 @@
     border-radius: 4px;
 }
 .btn:hover{
-    color: rgb(230, 209, 172) ;
+    color: rgba(255, 255, 255, 0.856) ;
     background-color: #31df79;
     transition: all;
     cursor: pointer;
     transform: scale(1.1);
 
 }
-
+.bttn{
+    padding: 12px 16px;
+    color: white;
+    border: 1px solid white;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    border-radius: 4px;
+}
+.bttn:hover{
+    transition: all;
+    cursor: pointer;
+    transform: scale(1.1);
+}
 
 
 
@@ -78,15 +91,23 @@ header nav ul a:hover{
 
 .hero-container .Early-Access{
     font-size: 16px;
+    font-weight: 600;
     color: #30b868;
     background-color: white;
     border-radius: 50px;
-    padding: 12px 6px;
+    padding: 12px 26px;
     margin-bottom: 16px;
+    border: none;
+}
+.hero-container .Early-Access:hover{
+    transition: all;
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .hero-container h1{
     font-size: 72px ;
     margin-bottom: 18px;
+    text-transform: capitalize;
 
 }
 .hero-container h1 .first{
@@ -122,6 +143,7 @@ header nav ul a:hover{
     color: #001931;
     margin-bottom: 16px;
     text-align: center;
+    text-transform: capitalize;
 
 }
 #card-section .section-heading p{
@@ -144,6 +166,12 @@ header nav ul a:hover{
      border-radius: 8px;
      box-shadow: 0px 0px 10px rgba(141, 128, 128, 0.555);
      padding: 69px 24px;
+}
+#card-section .card-info-container .card:hover{
+    transition: all;
+    transform: scale(1.05);
+    cursor: pointer;
+
 }
 #card-section .card-info-container .card img{
     max-width: 60px;
@@ -205,6 +233,7 @@ header nav ul a:hover{
     font-weight: 800;
     color: #001931;
     margin-bottom: 16px;
+    text-transform: capitalize;
 }
 
 #second-brain .second-brain-container .second-brain-items-container p{
@@ -257,6 +286,7 @@ header nav ul a:hover{
     font-weight: 900;
     color: black;
     margin-bottom: 16px;
+    text-transform: capitalize;
 }
 .think-section .think-container p{
     font-size: 16px;
@@ -309,6 +339,10 @@ header nav ul a:hover{
 #footer .footer-content .social-link ul a{
     text-decoration: none;
     color: white;
+}
+#footer .footer-content .social-link ul a:hover{
+    color: #30b868;
+    transition: all;
 }
 .copy-right{
     text-align: center;
